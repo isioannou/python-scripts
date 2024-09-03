@@ -1,0 +1,9 @@
+{
+   "type":"record",
+   "name":"Key",
+   "namespace":"com.iioannou.example",
+   "fields":[
+        {"name":"Code","type":["null","string"],"default":null},
+        {"name":"Name","type":"string"},
+	]
+}

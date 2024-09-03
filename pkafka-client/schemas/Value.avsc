@@ -1,0 +1,10 @@
+{
+  "type":"record",
+  "name":"Value",
+  "namespace":"com.iioannou.example",
+  "fields":[
+    {"name":"Description","type":"string"},
+    {"name":"Name","type":"string"},
+    {"name":"StartTime","type":{"type":"long","connect.version":1,"connect.name":"org.apache.kafka.connect.data.Timestamp","logicalType":"timestamp-millis"}}
+ ]
+}
